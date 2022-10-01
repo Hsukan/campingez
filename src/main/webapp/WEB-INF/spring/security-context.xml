@@ -56,6 +56,8 @@
 		
 		<intercept-url pattern="/reservation/intro.do" access="permitAll"/>
 		<intercept-url pattern="/reservation//bestReviewByCampzone.do" access="permitAll"/>
+		<intercept-url pattern="/reservation/find.do" access="permitAll"/>
+		<intercept-url pattern="/reservation/result.do" access="permitAll"/>
 		
 		<intercept-url pattern="/review/reviewListBySearchType.do" access="permitAll"/>
 		<intercept-url pattern="/review/reviewList.do" access="permitAll"/>

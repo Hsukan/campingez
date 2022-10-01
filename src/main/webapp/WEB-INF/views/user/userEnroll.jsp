@@ -98,7 +98,7 @@
         		</td>
         	</tr>
         <tr>
-          <th>패스워드확인</th>
+          <th>비밀번호확인</th>
           <td><input type="password" class="form-control" id="passwordCheck" value="" required></td>
           <td>
             <div>

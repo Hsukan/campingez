@@ -34,7 +34,7 @@ public class DataServiceImpl implements DataService {
 	
 	private URL urlFormatter(String date, String time) throws MalformedURLException {
 		String url = WEATHER_URL + "?serviceKey=" + WEATHER_SERVICE_KEY 
-				  + "&numOfRows=10"
+				  + "&numOfRows=60"
 				  + "&pageNo=1"
 				  + "&base_date=" + date
 				  + "&base_time=" + time
